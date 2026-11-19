@@ -64,3 +64,12 @@ def test_eval_counts_accuracy_hallucinations_and_omissions():
     assert report["fields"]["supplier_bin"]["correct"] is True
     assert report["hallucinations"] == 0
     assert report["omissions"] == 0
+
+
+def test_model_output_is_validated_before_it_can_be_returned():
+    from llm_engineer.llm import OllamaClient
+
+    client = OllamaClient()
+    client.endpoint = "http://127.0.0.1:1/does-not-exist"
+    with pytest.raises(RuntimeError, match="Ollama is unavailable"):
+        client.extract("test")
