@@ -1,0 +1,1 @@
+{"doc_type":"invoice","supplier_name":"АО «Евразия»","supplier_bin":"123456789012","doc_number":"EU-42","doc_date":"2026-04-20","currency":"EUR","total_amount":1250,"vat_amount":null,"line_items":[{"name":"Design work","qty":null,"price":1250}]}

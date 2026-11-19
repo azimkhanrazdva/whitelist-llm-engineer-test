@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "whitelist-llm-extractor"
+version = "0.1.0"
+description = "Conservative document extraction CLI for the WhiteList LLM Engineer task"
+requires-python = ">=3.11"
+dependencies = ["pydantic>=2.7,<3"]
+
+[project.scripts]
+extract-document = "llm_engineer.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
