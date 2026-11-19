@@ -1,1 +1,1 @@
-{"doc_type":"invoice","supplier_name":"ТОО «Контур»","supplier_bin":"120000000001","doc_number":"8","doc_date":"2026-06-01","currency":"KZT","total_amount":100000,"vat_amount":null,"line_items":[]}
+{"doc_type":"invoice","supplier_name":"ТОО «Контур»","supplier_bin":"120000000001","doc_number":"8","doc_date":"2026-06-01","currency":"KZT","total_amount":100000,"vat_amount":null,"line_items":[],"field_confidence":{},"warnings":[]}

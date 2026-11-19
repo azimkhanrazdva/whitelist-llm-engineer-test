@@ -1,1 +1,1 @@
-{"doc_type":"act","supplier_name":"ТОО «Строй Сервис»","supplier_bin":null,"doc_number":"7","doc_date":"2026-03-15","currency":"KZT","total_amount":340000,"vat_amount":null,"line_items":[{"name":"Оказание услуг","qty":1,"price":340000}]}
+{"doc_type":"act","supplier_name":"ТОО «Строй Сервис»","supplier_bin":null,"doc_number":"7","doc_date":"2026-03-15","currency":"KZT","total_amount":340000,"vat_amount":null,"line_items":[{"name":"Оказание услуг","qty":1,"price":340000}],"field_confidence":{},"warnings":[]}
