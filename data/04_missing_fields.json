@@ -1,1 +1,1 @@
-{"doc_type":"invoice","supplier_name":"ИП Север","supplier_bin":null,"doc_number":null,"doc_date":null,"currency":null,"total_amount":12500,"vat_amount":null,"line_items":[{"name":"Услуга","qty":null,"price":12500}]}
+{"doc_type":"invoice","supplier_name":"ИП Север","supplier_bin":null,"doc_number":null,"doc_date":null,"currency":null,"total_amount":12500,"vat_amount":null,"line_items":[{"name":"Услуга","qty":null,"price":12500}],"field_confidence":{},"warnings":[]}
